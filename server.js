@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 //turn on routes
 app.use(routes);
 
-//turn on connection to db and server
+//turn on connection to db and server, force will do the equvalient of DROP TABLE IF EXISTS if value is true
 sequelize.sync({ force: false }).then(() => {
     app.listen(PORT, () => console.log("Now listening"));
 });
