@@ -8,5 +8,26 @@
     "express-session": "^1.17.3",
     "mysql2": "^2.3.3",
     "sequelize": "^6.21.3"
-  }
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "name": "just-tech-news",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickSchenck/just-tech-news.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickSchenck/just-tech-news/issues"
+  },
+  "homepage": "https://github.com/NickSchenck/just-tech-news#readme",
+  "description": ""
 }
